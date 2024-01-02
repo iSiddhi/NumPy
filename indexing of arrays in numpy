@@ -1,0 +1,57 @@
+import numpy as np
+arr=np.array([1,2,3,4])
+print([0])
+
+import numpy as np
+arr=np.array([1,2,3,4,5])
+print(arr[2]+arr[3])
+
+import numpy as np
+arr=np.array([[1,2,3,4,5],[6,7,8,9,10]])
+print(arr[1,0])
+print(arr[0,4])
+
+import numpy as np
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+print(arr[0,1,2])
+
+import numpy as np
+
+arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])
+
+print('Last element from 2nd dim: ', arr[1, -1])
+
+import numpy as num
+arr=np.array([1,2,3,4,5,6,7])
+print(arr[1:5])
+print(arr[4:])
+print(arr[:4])
+
+import numpy as num
+arr=np.array([1,2,3,4,5,6,7])
+print(arr[1:5:2])
+
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[::2])
+
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4], dtype='S')
+
+# print(arr)
+print(arr.dtype)
+
+import numpy as np
+arr=np.array([1,2,3,4,5])
+print([arr.dtype])
+
+import numpy as np
+arr=np.array(["apple","ball","cat"])
+print(arr.dtype)
+
+
+
+
