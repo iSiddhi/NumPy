@@ -1,0 +1,50 @@
+# Random Permutations of Elements
+# The NumPy Random module provides two methods for this: shuffle() and permutation().
+from numpy import random
+import numpy as np
+arr=np.array([1,2,3,4,5])
+random.shuffle(arr)
+print(arr)
+
+
+# Generating Permutation of Arrays
+
+from numpy import random
+import numpy as np
+arr=np.array([1,2,3,4,5])
+print(random.permutation(arr))
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.distplot([0,1,2,3,4,5])
+plt.show()
+
+
+import matplotlib.pyplot  as plt
+import seaborn as sns
+sns.distplot([3,4,5,7,8,1])
+plt.show
+
+
+import matplotlib.pyplot  as plt
+import seaborn as sns
+sns.distplot([3,4,5,7,8,1])
+plt.show
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.distplot([3,4,5,6,7,8])
+plt.show
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.distplot([0,5,5,5,5,5,5,6],hist=False)
+plt.show()
+from numpy import random
+x=random.normal(size=(2,3))
+print(x)
+
+...
